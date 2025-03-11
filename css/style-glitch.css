@@ -1,0 +1,66 @@
+html { 
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: black; 
+  padding: 5%
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  color: white;
+  font-size: 200%;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.subtitle {
+  color: white;
+  font-size: 150%;
+}
+
+.content {
+  color: white;
+  font-size: 100%;
+  line-height: 30%;
+  width: 30%;
+  margin-top: -18%;
+  margin-left: 10%;
+  animation-duration: 3s;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+}
+
+.make:hover {
+  text-decoration: underline;
+}
+
+.make {
+  color: red;
+}
+ 
+img {
+  width: 75%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: -3%;
+}
+
+.redtext {
+  color: red;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg);}
+    25% { transform: rotate(90deg);}
+    100% { transform: rotate(360deg);}
+}
